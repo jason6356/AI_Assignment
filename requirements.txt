@@ -1,0 +1,6 @@
+### Requirements Wihout Version Specifiers ###
+
+beautifulsoup4
+nltk
+urllib3
+scikit-learn 
