@@ -64,7 +64,6 @@ for p in cat_data_paragraphs:
 
 cat_text = re.sub(r'\s+', ' ',re.sub(r'\[[0-9]*\]', ' ', cat_text))
 cat_sentences = nltk.sent_tokenize(cat_text)
-
 questions_text = ''.join(questions)
 # questions_text = re.sub(r'\s+', ' ',re.sub(r'\[[0-9]*\]', ' ', questions_text))
 # question_sentences = nltk.sent_tokenize(questions_text)
@@ -82,7 +81,7 @@ def checkQuestion_similarity(user_query):
     input_check.sort()
 
     if input_check[-2] == 0:
-        return "Please Try again"
+        return "I dun understand what you say, please try again la haiiya"
     else:
         if 'branch' in user_query:
             return thisdict[similarQuestion]['branch']
@@ -107,7 +106,7 @@ def chatbot_answer(user_query):
     input_check.sort()
 
     if input_check[-2] == 0:
-        return "Please Try again"
+        return "I dun understand what you say, please try again la haiiya"
     else:
         return answer
 
