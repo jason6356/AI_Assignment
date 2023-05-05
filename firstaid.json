@@ -1,0 +1,261 @@
+{"intents": [
+        {"tag": "Greetings",
+         "patterns": ["hi", 
+                      "how are you", "is anyone there", "hello", "whats up", "hey","yo", "listen", "please help me", "i am learner from", "i belong to", "first aid", "i need help", "sos", "help", "hi chatbot", "hi", "chatbot", "hey ya", "how do I start", "talking to you for first time", "learn first aid"],
+         "responses": ["Hello! How can I help you?  ^_^"],
+         "context_set": ""
+        },
+    
+        {"tag": "Exit",
+         "patterns": ["thank you", "thanks", "cya","see you", "later", "see you later", "goodbye", "i am leaving", "have a Good day", "you helped me", "thanks a lot", "thanks a ton", "you are the best", "great help", "you saved me", "you are a good learning buddy"],
+         "responses": ["You are welcome, I hope I was able to assist you! ^_^ Enter 'bye' or 'end' to end the conversation"],
+         "context_set": ""
+        },
+    
+        {"tag": "Emergency Number",
+         "patterns": ["Emergency number", "hospital number", "call ambulance", "hotline", "telephone", "contact", "number"],
+         "responses": ["Dial 999 or 991 to call an ambulance."],
+         "context_set": ""
+        },    
+    
+        {"tag": "Cuts",
+         "patterns": ["What to do if cuts?", "How to cure cuts?", "Which medicine to apply for cuts?", "What to apply on cuts?", "cuts"],
+         "responses": ["1) Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2 minutes until bleeding stops. 2) Apply Petroleum Jelly to make sure that the wound is moist for quick healing. 3) Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied."],
+         "context_set": ""
+        },
+
+        {"tag": "Abrasions",
+         "patterns": ["how do you treat abrasions?", "Do abrasions cause scars?", "abrasions", "what to do if abrasions?", "Which medicine to apply for abrasions?", "How to cure abrasions?"],
+         "responses": ["1) Begin with washed hands. 2) Gently clean the area with cool to lukewarm water and mild soap. 3) Remove dirt or other particles from the wound using sterilized tweezers. 4) For a mild scrape that’s not bleeding, leave the wound uncovered. 5) If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding. 6) Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. 7) Cover it with a clean bandage or gauze. 8) Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection."],
+         "context_set": ""
+        },
+
+        {"tag": "Stings",
+         "patterns": ["How do you treat Sting?", "stings", "What to do if you get a sting?", "Which medicine to apply if sting?", "bee sting", "stung by bee"],
+         "responses": ["1) Remove any stingers immediately by scraping out the stinger with a credit card. 2) Apply ice to the site may provide some mild relief. Apply ice for 20 minutes once every hour as needed. Wrap the ice in a towel or keep a cloth between the ice and skin to keep from freezing the skin. Taking an antihistamine such as diphenhydramine (Benadryl) or a nonsedating one such as loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin)for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching, and swelling."],
+         "context_set": ""
+        },
+
+        {"tag": "Splinter",
+         "patterns": ["How to remove splinters", "How to cure splinters?", "What to do if I have splinters?", "How do you bring a splinter to the surface?", "plant splinter", "wood splinter"],
+         "responses": ["1) Soak it in epsom salts. Dissolve a cup of the salts into a warm bath and soak whatever part of the body has the splinter. Failing that, you can also put some of the salts onto a bandage pad and leave it covered for a day; this will eventually help bring the splinter to the surface. 2) Vinegar or oil. Another simple way to draw out that stubborn splinter is to soak the affected area in oil (olive or corn) or white vinegar. Just pour some in a bowl and soak the area for around 20 to 30 minutes,"],
+         "context_set": ""
+        },
+
+        {"tag": "Sprains",
+         "patterns": ["How do you treat a sprain?", "what to do if I get a sprain?", "Which cream to apply if I get a sprain?", "Which medicine to apply if I get a sprain?", "sprained", "ankle sprain"],
+         "responses": ["1) Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. 2) To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle."],
+         "context_set": ""
+        },
+
+        {"tag": "Strains",
+         "patterns": ["How do you treat a strain?", "what to do if I get a strain?", "Which cream to apply if I get a strain?", "Which medicine to apply if I get a strain?", "How do you diagnose a strain?", "muscle strain"],
+         "responses": ["1) Rest, ice, compression and elevation can be used to cure strains. 2) Avoid using your muscle for a few days, especially if movement causes an increase in pain. 3) Also Apply ice immediately after injuring your muscle to minimize swelling. 4) Do not put ice directly on your skin] but use an ice pack or wrap ice in a towel instead. 5) To reduce swelling, wrap the affected area with an elastic bandage until swelling comes down."],
+         "context_set": ""
+        },
+
+        {"tag": "Fever",
+         "patterns": ["How do you treat a mild fever?", "what to do if i get a mild fever?", "Which medicine to take if I get a mild fever?", "forehead high temperature"],
+         "responses": ["1) Drink plenty of fluids to stay hydrated. 2) Dress in lightweight clothing. 3) Use a light blanket if you feel chilled, until the chills end. 4) Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others). 5) Get medical help if the fever lasts more than five days in a row."],
+         "context_set": ""
+        },
+
+        {"tag": "Nasal Congestion",
+         "patterns": ["How do you treat nasal congestion?", "what to do if I get a nasal congestion?", "Which medicine to take if I have a nasal congestion?", "what to do if i have a blocked nose?", "How do you treat a blocked nose?", "How long does nasal congestion last?"],
+         "responses": ["1) Focus on keeping your nasal passages and sinuses moist if you're stuffed up. 2) Use a humidifier or vaporizer to keep nasal passages moist or drink lots of fluids which help in thinning the mucus to prevent blocked sinuses. 3) Place a warm, wet towel on your face to relieve discomfort and open your nasal passages."],
+         "context_set": ""
+        },
+
+        {"tag": "Cough",
+         "patterns": ["How to cure cough?","How do you treat cough?", "what to do if I get a cough?", "Which medicine to take if I get cough?", "How do you get rid of cough?", "coughed"],
+         "responses": ["1) Honey:- Use honey to treat a cough, mix 2 teaspoons (tsp) with warm water or an herbal tea. Drink this mixture once or twice a day. Do not give honey to children under 1 year of age. 2) Ginger:- Brew up a soothing ginger tea by adding 20–40 grams (g) of fresh ginger slices to a cup of hot water. Allow to steep for a few minutes before drinking. Add honey or lemon juice to improve the taste and further soothe a cough. 3) Fluids:- Staying hydrated is vital for those with a cough or cold. Research indicates that drinking liquids at room temperature can alleviate a cough, runny nose, and sneezing."],
+         "context_set": ""
+        },
+
+        {"tag": "Sore Throat",
+         "patterns": ["How do you treat sore throat?", "what to do if I get a sore throat?", "Which medicine to take if I get a sore throat?", "How to cure sore throat?", "painful to swallow"],
+         "responses": ["1) Make sure you get plenty of rest and drink a lot of fluids. 2)Inhale steam,Run hot water in a sink.Drape a towel over you to trap the steam, and have the person lean over the sink with the water running. Tell him to breathe deeply through his mouth and nose for 5 to 10 minutes. Repeat several times a day. 3)Have him sip chicken broth or warm tea with honey. Don’t give honey to a child under 12 months of age."],
+         "context_set": ""
+        },
+
+        {"tag": "Gastrointestinal problems",
+         "patterns": ["How do you treat gastrointestinal problems?", "what to do if I have gastrointestinal problems?", "Which medicine to take if I get gastrointestinal problem?", "How to cure gastrointestinal problems?", "gas", "gastritis"],
+         "responses": ["1) Replenish body fluids 2) Do not take antidiarrheal drugs or laxatives or pain medication, unless specified by a medical professional. 3) Taking antacids may help, per recommendation of a healthcare professional. 4) If prone to frequent heartburns, seek medical help. 5)Taking meals that are not spicy regularly, can relieve ulcer pains. 6) Seek medical help, if conditions persist or continue to worsen"],
+         "context_set": ""
+        },
+
+        {"tag": "Skin problems",
+         "patterns": ["How do you treat skin problems?", "what to do if I get a skin allergy?", "Which medicine to take if I get a skin allergy?", "How to cure skin allergy?", "skin allergy"],
+         "responses": ["1) Hydrocortisone cream. 2) Ointments like calamine lotion. 3) Antihistamines. 4) Cold compresses. 5) Oatmeal baths. 6) Talk to your doctor about what's best for your specific rash."],
+         "context_set": ""
+        },
+
+        {"tag": "Abdominal Pain",
+         "patterns": ["How do you treat abdominal pain?", "what to do if I get a abdominal pain?", "Which medicine to take if I get a abdominalpain?", "How to cure abdominal pain?", "abdominal pain", "stomach pain"],
+         "responses": ["1) Provide clear fluids to sip, such as water, broth, or fruit juice diluted with water. 2) Serve bland foods, such as saltine crackers, plain bread, dry toast, rice, gelatin, or applesauce. 3) Avoid spicy or greasy foods and caffeinated or carbonated drinks until 48 hours after all symptoms have gone away."],
+         "context_set": ""
+        },
+
+        {"tag": "Bruises",
+         "patterns": ["How do you treat bruises?", "what to do if I get a bruise?", "Which medicine to take if I get a bruise?", "How to cure bruises?", "bruised"],
+         "responses": ["1) Ice the bruise with an ice pack wrapped in a towel. 2) Leave it in place for 10 to 20 minutes. 3) Repeat several times a day for a day or two as needed. 4) Compress the bruised area if it is swelling, using an elastic bandage. "],
+         "context_set": ""
+        },
+
+        {"tag": "Broken Toe",
+         "patterns": ["How do you treat a broken Toe?", "what to do if I get a broken toe?", "Which medicine to take if I get a broken toe?", "How to cure broken toe?", "toe broken"],
+         "responses": ["1) To help decrease pain and swelling in a broken toe, elevate the foot, ice the injury, and stay off the foot. 2) Depending on the severity of the fracture, the toe may need to be put back into place (reduced), and some compound toe fractures may require surgery. 3)Most broken toes heal without complications in six weeks."],
+         "context_set": ""
+        },
+
+        {"tag": "Choking",
+         "patterns": ["How do you treat choking?", "what to do if I get a choke?", "Which medicine to take if I get choked?", "How to cure choking?", "choke", "choked"],
+         "responses": ["1) Encourage them to keep coughing to try to clear the blockage. 2) Ask them to try to spit out the object if it's in their mouth. 3) If coughing doesn't work, start back blows and abdominal thrusts"],
+         "context_set": ""
+        },
+
+        {"tag": "Wound",
+         "patterns": ["How do you treat a wound?", "what to do if I get a Wound?", "Which medicine to take if I get wounded?", "How to cure a wound?", "wounded"],
+         "responses": ["1) Rinse the cut or wound with water and apply pressure with sterile gauze, a bandage, or a clean cloth. 2) If blood soaks through the bandage, place another bandage on top of the first and keep applying pressure. 3) Raise the injured body part to slow bleeding. 4) When bleeding stops, cover the wound with a new, clean bandage."],
+         "context_set": ""
+        },
+
+        {"tag": "Diarrhea",
+         "patterns": ["How do you treat diarrhea?", "what to do if I get diarrhea?", "Which medicine to take if I get diarrhea?", "How to cure diarrhea?", "laosai"],
+         "responses": ["1) Give an oral rehydration solution (such as Pedialyte, Enfalyte, or a store brand) to replace lost fluids. 2) Offer small amounts often by syringe, spoon, or cup. 3) It is highly recommended to avoid dairy products, as they may worsen diarrhea in some people. 3) If diarrhea lasts for more than 2 days, seek medical advice to avoid complications."],
+         "context_set": ""
+        },
+
+        {"tag": "Frost bite",
+         "patterns": ["How do you treat a frost bite?", "what to do if I get a frost bite?", "Which medicine to take if I get a frost bite?", "How to cure frost bite?", "frostbite"],
+         "responses": ["1) Move the person someplace that is warmer and remove clothing from the affected area. 2) Rewarm the affected area until sensation in the skin has returned and the skin is soft for at least 30 minutes. 3) Continue to circulate and refresh the warm water. 4)Apply a clean (sterile, if possible), dry dressing to the affected area. 5) Re-cover the affected area with dry clothing to keep it warm."],
+         "context_set": ""
+        },
+
+        {"tag": "Heat Exhaustion",
+         "patterns": ["How do you treat heat exhaustion?", "what to do if I feel exhausted due to heat?", "Which medicine to take if I get exhausted?", "How to cure heat exhaustion?", "overheat", "heat stroke"],
+         "responses": ["1) Move the person out of the heat and into a shady or air-conditioned place. 2) Lay the person down and elevate the legs and feet slightly. 3) Remove tight or heavy clothing. 4) Have the person sip chilled water, a decaffeinated sports drink containing electrolytes or other nonalcoholic beverage without caffeine. 5) Cool the person by spraying or sponging with cool water and fanning."],
+         "context_set": ""
+        },
+    
+        {"tag": "Nose Bleed",
+         "patterns": ["How do you treat a bleeding nose?", "what to do if I my nose is bleeding?", "Which medicine to take if I get nose bleed?", "How to cure nose bleeding?", "bleeding nose", "nose blood"],
+         "responses": ["1) Use your thumb and index finger to pinch your nostrils shut. 2) Breathe through your mouth. 3) Continue to pinch for 10 to 15 minutes. 4) Pinching sends pressure to the bleeding point on the nasal septum and often stops the flow of blood."],
+         "context_set": ""
+        },
+
+        {"tag": "Pulled Muscle",
+         "patterns": ["How do you treat a pulled muscle?", "what to do if my muscle is pulled?", "Which medicine to take if I got pulled muscle?", "How to cure a pulled muscle?", "muscle pain", "Is heat or ice better for a pulled muscle?"],
+         "responses": ["1) Use an ice pack or slush bath of ice and water for 15 to 20 minutes each time. 2) Repeat every two to three hours while you're awake for the first few days after the injury. 3) Compress the area with an elastic bandage until the swelling stops."],
+         "context_set": ""
+        },
+
+        {"tag": "Sun Burn",
+         "patterns": ["How do you treat sun burn?", "what to do if I get a sun burn?", "Which medicine to take if I get sunb burn?", "How to cure a sun burn?", "sunburned"],
+         "responses": ["1) Gently clean the area with mild soap and water. 2) Apply an antibiotic ointment to the wound and cover it with a nonstick bandage. 3) Protect yourself from further sun exposure while your skin heals from the sunburn. 4) Apply a soothing medicated cream."],
+         "context_set": ""
+        },
+    
+        {"tag": "Vertigo",
+         "patterns": ["How do you treat a vertigo?", "what to do if I get a vertigo?", "Which medicine to take if I get vertigo?", "How to cure a vertigo?", "off balance", "ear problems"],
+         "responses": ["1) Sit on the edge of the bed and turning the head 45 degrees to the left. 2) Lying down quickly and facing head up on the bed at a 45-degree angle. 3) Maintain the position for 30 seconds. 4) Turn the head halfway — 90 degrees — to the right without raising it for 30 seconds. 5) Turn the head and entire body to the right side, looking downward for 30 seconds 6) Slowly sit up but remaining sitting for at least a few minutes. NOTE: If vertigo starts on the right side, these directions should be done in reverse."],
+         "context_set": ""
+        },
+
+        {"tag": "Eye Injury",
+         "patterns": ["How do you treat an eye injury?", "what to do if I get a eye injury?", "Which medicine to take if I injured my eye?", "How to cure injured eye?"],
+         "responses": ["1) Do not rub or apply pressure to the eye. 2) Gently apply a small cold compress to reduce pain and swelling. 3) Seek for doctors immediately if swelling, discoloration (black eye), pain or visual disturbance occurs."],
+         "context_set": ""
+        },
+
+        {"tag": "Chemical Burn",
+         "patterns": ["How do you treat a chemical burn?", "what to do if I get a chemical burn?", "Which medicine to take if I get burn due to chemicals?", "How to cure chemical burn?"],
+         "responses": ["1) Remove contaminated clothing or jewelry and rinse chemicals off for at least 20 minutes with clean water. 2) Protect your eyes from chemical contamination. 3) Bandage the burn. 4) Cover the burn with a clean bandage."],
+         "context_set": ""
+        },
+
+        {"tag": "Food Poison",
+         "patterns": ["How do you treat a food poison?", "what to do if I get food poison?", "Which medicine to take if I am food poisoned?", "How to cure food poisoning?", "food poison", "food poisoning", "vomit"],
+         "responses": ["1) Stop eating and drinking for a few hours. 2) Try sucking on ice chips or taking small sips of water. 3) Try drinking clear soda, clear broth or noncaffeinated sports drinks. 4)Try oral rehydration solutions if severe dehydration symptoms or diarrhea occurs."],
+         "context_set": ""
+        },
+
+        {"tag": "Broken Teeth",
+         "patterns": ["How do you treat broken Teeth ?", "what to do if my teeth got broken?", "Which medicine to take if I get broken teeth?", "Cure broken teeth?", "teeth broke", "broken tooth"],
+         "responses": ["1) Lick the tooth clean if it's dirty, or rinse it in water. 2) Put it back into position (adult teeth only), never try to re-insert a baby tooth. 3) Bite on a handkerchief to hold the tooth in place. 4) Seek a dentist as an emergency."],
+         "context_set": ""
+        },
+
+        {"tag": "Seizure",
+         "patterns": ["How do you treat a seizure?", "what to do if i get a seizure?", "Which medicine to take if I get seizure?", "How to cure seizure?", "seizures"],
+         "responses": ["1) Ease the person to the floor. 2) Turn the person gently onto one side to help the person breathe. 3) Clear the area around the person of anything hard or sharp to prevent injury. 4) Put something soft and flat, like a folded jacket, under the person's head. 5) Remove eyeglasses, loosen ties or anything around the neck that may make it hard to breathe. 6) Time the seizure and call 991 if the seizure lasts longer than 5 minutes."],
+         "context_set": ""
+        },
+
+        {"tag": "Head Injury",
+         "patterns": ["How do you treat a head injury?", "what to do if i get a head injury?", "Which medicine to take if I get injured in the head?", "How to cure head injury?", "injured head"],
+         "responses": ["1) Stabilize the head and neck by placing your hands on both sides of the person's head. 2) Keep the head in line with the spine and prevent movement. 3) Stop any bleeding by firmly pressing a clean cloth on the wound, unless you suspect a skull fracture. 4) If the injury is serious, be careful not to move the person's head. 5) If blood soaks through the cloth, do not remove it and place another cloth over the first one."],
+         "context_set": ""
+        },
+
+        {"tag": "Fainting",
+         "patterns": ["How do you treat faint?", "what to do if I feel like fainting?", "Which medicine to take if I get a faint?", "How to cure fainting?", "fainted"],
+         "responses": ["1) Ask them to lie down and check for other injuries. 2) They may have hurt themselves falling down, so look for head injuries and any other wounds. 3) Kneel down next to them and raise their legs, supporting their ankles on your shoulders to help blood flow back to the brain. 4) Make sure that they have plenty of fresh air. Ask other people to move away and if you’re inside then ask someone to open a window."],
+         "context_set": ""
+        },
+
+        {"tag": "Headache",
+         "patterns": ["How do you treat a mild headache?", "what to do if I get a mild headache?", "Which medicine to take if I have a mild headache?", "How to cure a mild headache?", "head pain"],
+         "responses": ["Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain. Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under age 18."],
+         "context_set": ""
+        },
+
+        {"tag": "Cold",
+         "patterns": ["How do you treat a cold?", "what to do if I get a mild cold?", "Which medicine to take if I have a cold?", "How to cure cold?", "catch a cold"],
+         "responses": ["1) Keeping hydrated is absolutely vital to help 'flush' out the cold, as well as to break down congestion and keep your throat lubricated. 2) Vitamin C is extremely helpful when fighting infection, so at the first sign of a cold be sure to increase your intake by eating plenty of berries, citrus fruits, papayas, broccoli and red peppers which will help keep you protected. 3) When it comes to combating a cold, Vitamin D is essential in helping to regulate immune response."],
+         "context_set": ""
+        },
+    
+        {"tag": "Rash",
+         "patterns": ["How do you treat rashes?", "what to do if I get a rash?", "Which medicine to take if I have a rash?", "How to cure rash?", "itchy skin", "rash itchy"],
+         "responses": ["1) Olive oil helps in healing and promotes skin renewal given it is packed with vitamin E and antioxidants. It also soothes the skin and reduces itching. 2) Baking soda is useful in drying skin rashes as also in relieving itching and inflammation. 3) Aloe Vera,Thanks to its antibacterial, antifungal, anti-inflammatory and emollient properties, aloe vera is excellent for treating a number of skin ailments including rashes as also soothing the skin."],
+         "context_set": ""
+        },
+    
+        {"tag": "Snake bite",
+         "patterns": ["How do you treat a snake bite?", "what to do if I get a snake bite?", "Which medicine to take if I get a snake bite?", "How to cure snake bite?", "I got bit by a snake", "snake bite me", "bitten by snake"],
+         "responses": ["1) Move the person beyond striking distance of the snake. 2) Have the person lie down with wound below the heart. 3) Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. 4) Cover the wound with loose, sterile bandage. 5) Remove any jewelry from the area that was bitten. 6) Remove shoes if the leg or foot was bitten."],
+         "context_set": ""
+        },
+
+        {"tag": "Animal Bite",
+         "patterns": ["How do you treat a animal bite?", "How do you treat a monkey bite?", "How do you treat a dog bite?", "what to do if i get a animal bite?", "Which medicine to take if I get a monekey bite?", "How to cure dog bite?", "I got bit by a dog", "A dog bite me", "cat bite"],
+         "responses": ["1) Wash the wound with soap and warm water. 2) Gently press a clean cloth over the wound to stop the flow of blood. 3) Apply an antibacterial ointment to the wound. 4) Cover with a sterile bandage. 5) Watch for signs of infection. 6) Seek help if you suspect infection or possible exposure to rabies, or if the wound is severe."],
+         "context_set": ""
+        },
+    
+        {"tag": "Insect Bite",
+         "patterns": ["How do you treat an Insect Bite?", "what to do if an insect bites me?", "Which medicine to take if I get bitten by an insect?", "How to cure insect bite?", "ant bite"],
+         "responses": ["1) Apply a cloth dampened with cold water or filled with ice to the area of the bite or sting for 10 to 20 minutes. This helps reduce pain and swelling. 2) If the injury is on an arm or leg, raise it. 3) Apply to the affected area calamine lotion, baking soda paste, or 0.5% or 1% hydrocortisone cream."],
+         "context_set": ""
+        },
+    
+        {"tag": "Drowning",
+         "patterns": ["What to do if someone is drowning?", "what to do if someone drowned?", "What steps to take if I see a drowning person?", "How to help a drowning person?", "water drowning"],
+         "responses": ["1) Place your ear next to the person's mouth and nose. Do you feel air on your cheek? 2) Look to see if the person's chest is moving. If the person is not breathing, check pulse. 3) Check the person's pulse for 10 seconds. If There is no pulse,start CPR immediately."],
+         "context_set": ""
+        },
+
+        {"tag": "CPR",
+         "patterns": ["How to give CPR??", "what to do in a CPR?", "What steps to take in a CPR??", "How to help a drowning person in CPR?", "cpr"],
+         "responses": ["1) For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone. 2) For an adult or child, press down at least 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone. 3) Do chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes. 4) Check to see if the person has started breathing."],
+         "context_set": ""
+        },
+
+        {"tag": "Fracture",
+         "patterns": ["How do you treat a fracture?", "what to do if I get a fracture?", "Which medicine to take if I have a fracture?", "How to cure a fracture?","broken bone", "bone fracture"],
+         "responses": ["1) Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2) Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3) Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4) Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."],
+         "context_set": ""
+        }
+   ]
+}
