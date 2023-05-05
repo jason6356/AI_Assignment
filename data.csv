@@ -1,0 +1,6 @@
+text,intent
+I want to book a flight to New York,flight_booking
+What's the weather like today?,weather
+How do I reset my password?,password_reset
+What time does the store close today?,store_hours
+Can you recommend a good restaurant nearby?,restaurant_recommendation
