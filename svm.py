@@ -2,14 +2,13 @@ from sklearn import svm
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
-
 
 # Training data
 train_data = [
     ('What course offer?','course_title'),
+    ('What course offer in KL campus?','course_title','course_location'),
     ('What is the program overview?', 'program_overview'),
     ('How much is the course fee?', 'course_fee'),
     ('Where is the campus located?', 'campus_location'),
@@ -52,13 +51,15 @@ svm_model = SVC(kernel='linear')
 svm_model.fit(X_train, y_train)
 
 # Predict the intent of new user input
-user_input = 'how much fee for software engineering?'
+user_input = input("How may I help you?:")
 X_test = vectorizer.transform([user_input])
 y_pred = svm_model.predict(X_test)
 
 # Map the predicted intent to the appropriate response
 if y_pred == 'program_overview':
     response = 'The program overview is...'
+elif y_pred == 'cpurse_title':
+    response = 'The course offer is...'
 elif y_pred == 'course_fee':
     response = 'The course fee is...'
 elif y_pred == 'campus_location':
@@ -67,5 +68,8 @@ elif y_pred == 'course_intake':
     response = 'The course intake on...'
 elif y_pred == 'course_duration':
     response = 'The course duration is...'
-
+else:
+    response = 'I am sorry I do not understand'
+         
+            
 print(response)
