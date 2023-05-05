@@ -1,7 +1,5 @@
-m_title = []
-            program_overview = []
-            program_outline = []
-            min_entry_req = []
-            career_prospects = []
-            fees_financial_aid = []
-            current_s
+mn_data = result
+# df['Faculty'] = new_column_data
+
+# # Save the updated DataFrame back to the CSV file
+# df.to_csv('course.csv', index=False)

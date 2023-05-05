@@ -10,7 +10,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 import re
 
-df = pd.read_csv("AI_Assignment/book1.csv")
+df = pd.read_csv("book1.csv")
 
 focus_general_patterns = {
     'admission requirement': r'.*\b(admission requirement|admission requirements)\b.*',
@@ -50,7 +50,7 @@ print(f"Accuracy: {accuracy}")
 user_input = input("How may I help you?")
 user_input_counts = vectorizer.transform([user_input])
 predicted_label = clf.predict(user_input_counts)
-print(predicted_label)
+# print(predicted_label)
 
 focus_category = []
 answer = ''
